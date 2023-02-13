@@ -3,8 +3,8 @@ package Day09;
 import java.util.Random;
 import java.util.Scanner;
 
-public class App {
-    private App(){
+public class RandomNumberGuessingApp {
+    private RandomNumberGuessingApp(){
     }
     public static void main( String[] args){
 
@@ -20,6 +20,7 @@ public class App {
         // expect input from keyboard
         // convert to expect from inputStream if its a socket app
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Guess a number from 0 to 99!");
 
         // allow user to guess until they got the random number correct
         while (myGuess !=randomNumber){
